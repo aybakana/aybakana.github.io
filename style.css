@@ -8,3 +8,16 @@ body
     margin: 20px;
     padding: 5px;
 }
+table
+{
+    border: 1px solid black;
+}
+td
+{
+    padding: 2px;
+    border: 1px solid #047900;
+}
+#tableheading
+{
+    font-weight:bold;
+}
