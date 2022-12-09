@@ -1,1 +1,16 @@
 # Abdulbaki Aybakan
+
+My Git Notes
+
+
+git clone {link}.git
+
+git status
+
+git add . // add all files
+git add {filename}
+
+
+git commit -m "commit message"
+
+git push
