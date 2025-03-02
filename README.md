@@ -5,9 +5,9 @@
 
 | Company | Position | Location | Years | Description |
 |---------|----------|----------|-------|-------------|
-| Airbus via OSB AG | Digital Trust Solutions Operations Manager | Ottobrunn, Bavaria | 11.2021-10.2022 | • Management of Operations related to Digital Certificates and Digital Signature<br>• Operational Authority Officer and Trusted Agent roles at Airbus PKI<br>• Giving Trusted Agent Trainings<br>• Python Scripting to automate some tasks and generate a GUI |
-| Vires Simulation Technology GmbH | C++ Software Developer | Bad Aibling, Bavaria | 11.2019-10.2021 | • Managing TaskControl and Module Manager components of VTD(Virtual Test Drive) which is written in C++<br>• Bug Fixing, Improvements and Developing new features for VTD<br>• I improved my Problem Solving Skills while finding the root cause of the bugs and fixing them<br>• Code Reviews and CI Pipeline over Jenkins |
-| Istanbul Technical University | Research Assistant | Istanbul, Turkey | 2017-2019 | • I worked on a Heterogeneous Team of Robots project with my supervisor Prof. Dr. Hakan Temeltas<br>• I used C++, Python and Robot Operating System<br>• Our task was to combine point clouds from different robots and create a 3D map of the environment. We used Velodyne VLP16 Lidar to get the point clouds<br>• This project also shaped my Master's Thesis |
+| Airbus via OSB AG | Digital Trust Solutions Operations Manager | Ottobrunn, Bavaria | 11.2021-10.2022 | • Managed operations related to Digital Certificates and Digital Signature at Airbus<br>• Served as an Operational Authority Officer and Trusted Agent at Airbus PKI<br>• Conducted Trusted Agent Trainings<br>• Utilized Python scripting for task automation and GUI generation |
+| Vires Simulation Technology GmbH | C++ Software Developer | Bad Aibling, Bavaria | 11.2019-10.2021 | • Developed and maintained TaskControl and Module Manager components of VTD (Virtual Test Drive) in C++<br>• Resolved bugs, implemented improvements, and added new features to VTD<br>• Demonstrated strong problem-solving skills in identifying and fixing software issues<br>• Conducted code reviews and implemented CI pipeline using Jenkins |
+| Istanbul Technical University | Research Assistant | Istanbul, Turkey | 2017-2019 | • Collaborated on a Heterogeneous Team of Robots project under the supervision of Prof. Dr. Hakan Temeltas<br>• Utilized C++, Python, and Robot Operating System (ROS) for the project<br>• Integrated point clouds from different robots to create a 3D map of the environment using Velodyne VLP16 Lidar<br>• This project also served as the basis for my Master's Thesis |
 
 ### Education
 
@@ -18,16 +18,21 @@
 
 ### Skills
 
-- **Programming Languages:** C++, Python, MATLAB and Simulink
-- **Robotics:** ROS(Robot Operating System), Gazebo, SLAM, Machine Learning
-- **Computer Vision:** Image Processing with OpenCV, Image Filtering and Segmentation, Point Cloud Processing with Point Cloud Library
+- **Programming Languages:** C++, Python, MATLAB, Simulink
+- **Robotics:** ROS (Robot Operating System), Gazebo, SLAM, Machine Learning
+- **Computer Vision:** OpenCV, Image Processing, Image Filtering, Segmentation, Point Cloud Processing with Point Cloud Library
 - **Libraries:** OpenCV, Point Cloud Library, Qt, Google Test, OpenSSL
-- **Tools:** SVN, Jira, Git, GDB, Valgrind, Jira, ServiceNow, VersionOne(SAFe), LaTeX
+- **Tools:** SVN, Jira, Git, GDB, Valgrind, Jira, ServiceNow, VersionOne (SAFe), LaTeX
+- **AI Frameworks:** Ollama, gpt4all, n8n, langchain
 - **Operating Systems:** Linux, Windows
-- **Languages:** English(C1), German(A2), Turkish(C2)
+- **Languages:** English (C1), German (A2), Turkish (C2)
 
 ### Personal Information
 
-- **Hobbies:** I like travelling and seeing new places, meeting friends, going for a meal, listening some audio books
+- **Hobbies:** I enjoy traveling, exploring new places, meeting friends, and listening to audiobooks.
 
 ### Software Projects
+- Whisper Transcriber
+- RL Training Environment
+- ASP.NET Web Applications with different roles and Admin Panel
+
