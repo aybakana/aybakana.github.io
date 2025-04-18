@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sea wave Style</title>
+    <style>
+        /*
+        Cool Colors
+        #1abc9c (Turquoise)
+        #16a085 (Green Sea)
+        #2ecc71 (Emerald)
+        #27ae60 (Nephritis)
+        #3498db (Peter River)
+        #2980b9 (Belize Hole)
+        #9b59b6 (Amethyst)
+        #8e44ad (Wisteria)
+        #34495e (Midnight Blue)
+        #2c3e50 (Dark Slate Gray) 
+         */
+         /* Sea wave like background */
+         body {
+            background: linear-gradient(to bottom, #1abc9c 0%, #3498db 100%) fixed;
+            height: 100vh;
+            color: #000000;
+            font-family: sans-serif;
+            animation-name: wave;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes wave {
+            0% {
+                background-position: 0% 0%;
+            }
+            10% {
+                background-position: 10% 0%;
+            }
+            20% {
+                background-position: 20% 0%;
+            }
+            30% {
+                background-position: 30% 0%;
+            }
+            40% {
+                background-position: 40% 0%;
+            }
+            50% {
+                background-position: 50% 0%;
+            }
+            60% {
+                background-position: 60% 0%;
+            }
+            70% {
+                background-position: 70% 0%;
+            }
+            80% {
+                background-position: 80% 0%;
+            }
+            90% {
+                background-position: 90% 0%;
+            }
+            100% {
+                background-position: 100% 0%;
+            }
+        }
+        h1 {
+            color: #009900;
+            text-align: center;
+        }
+        .button {
+            background-color: #009900;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #00cc00;
+        }
+        @keyframes moveButtons {
+            0% {
+                transform: translateX(0px);
+            }
+            100% {
+                transform: translateX(20px);
+            }
+        }
+        .button:hover {
+            animation-name: moveButtons;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+/* Set the initial background color of the rectangle */
+.rectangle {
+    position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+  border-radius: 100px;
+}
+
+/* Change the background color when the user's mouse is over the rectangle */
+.rectangle:hover {
+  mix-blend-mode: soft-light;
+}
+
+    </style>
+</head>
+<body>
+    <div class="rectangle"></div>
+    <script>
+        // Get a reference to the rectangle element
+        const rectangle = document.querySelector('.rectangle');
+        
+        // Add an event listener for the mousemove event
+        document.addEventListener('mousemove', (event) => {
+          // Update the position of the rectangle to match the mouse position
+          rectangle.style.left = `${event.pageX - 50}px`;
+          rectangle.style.top = `${event.pageY - 50}px`;
+          console.log(event.pageX, event.pageY);
+        });
+            </script>
+    <h1>Sea wave style</h1>
+    <p>Welcome to Sea wave style, a website with CSS animations!</p>
+    <p>
+        <button class="button">Click me!</button>
+    </p>
+
+</body>
+</html>
